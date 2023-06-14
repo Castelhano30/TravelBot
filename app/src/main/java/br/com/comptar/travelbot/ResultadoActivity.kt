@@ -27,12 +27,15 @@ class ResultadoActivity : AppCompatActivity() {
         if(SharedData.local == 10){
             if(SharedData.clima == 1){
 
+                resultadoText.text = "Gramado"
             }
             else if(SharedData.clima == 2){
 
+                resultadoText.text = "Porto de Galinhas"
             }
             else if (SharedData.clima == 3){
 
+                resultadoText.text = "Jericoacoara"
             }
         }
 
