@@ -25,9 +25,7 @@ class TelaPergunta2Activity : AppCompatActivity() {
         btnResp1.setOnClickListener {
             btnResp1.setBackgroundColor(Color.rgb(137, 137, 137))
             btnResp1.setTextColor(Color.WHITE)
-            var local = "Nacional"
-//            val intent = Intent(this@TelaPergunta2Activity,ResultadoActivity::class.java)
-//            intent.putExtra("local", local)
+            SharedData.local = 10
             HabiltarButtonConfirmarResposta()
         }
 
@@ -35,10 +33,7 @@ class TelaPergunta2Activity : AppCompatActivity() {
         btnResp2.setOnClickListener {
             btnResp2.setBackgroundColor(Color.rgb(137, 137, 137))
             btnResp2.setTextColor(Color.WHITE)
-            var local = "Internacional"
-//            val intent = Intent(this@TelaPergunta2Activity,ResultadoActivity::class.java)
-//            intent.putExtra("local", local)
-////            startActivity(intent)
+            SharedData.local = 20
             HabiltarButtonConfirmarResposta()
         }
 
@@ -49,20 +44,15 @@ class TelaPergunta2Activity : AppCompatActivity() {
             HabiltarButtonConfirmarResposta()
         }
 
-        DesabilitarButtonConfirmarRespoasta()
+        DesabilitarButtonConfirmarResposta()
     }
 
-
-    private fun EnviarDadosResultado() {
-
-
-    }
     private fun HabiltarButtonConfirmarResposta() {
         btnConfirmarResp.setTextColor(Color.WHITE)
         btnConfirmarResp.setBackgroundColor(cor_verde_btn_habilitado)
         btnConfirmarResp.isEnabled = true
     }
-    private fun DesabilitarButtonConfirmarRespoasta() {
+    private fun DesabilitarButtonConfirmarResposta() {
         btnConfirmarResp.setTextColor(Color.WHITE)
         btnConfirmarResp.setBackgroundColor(cor_cinza_btn_desabilitado)
         btnConfirmarResp.isEnabled = false

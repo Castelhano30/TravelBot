@@ -8,9 +8,9 @@
 
     <TextView
         android:id="@+id/textPergunta1"
-        android:layout_width="314dp"
-        android:layout_height="54dp"
-        android:text="O que te atrai na hora de escolher um destino ?"
+        android:layout_width="338dp"
+        android:layout_height="73dp"
+        android:text="O que te atrai na hora de escolher um destino turístico ?"
         android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"

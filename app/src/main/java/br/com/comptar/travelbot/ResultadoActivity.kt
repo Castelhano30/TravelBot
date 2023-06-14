@@ -9,23 +9,34 @@ class ResultadoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_resultado)
 
-     val textView4 = findViewById<TextView>(R.id.textView4)
-//        val local = intent.getStringExtra("local")
+        val resultadoText : TextView = findViewById<TextView>(R.id.textViewResultado)
+        if(SharedData.local == 20){
+            if(SharedData.clima == 1){
 
-        textView4.setText(local)
+                resultadoText.text = "Salzburgo"
+            }
+            else if(SharedData.clima == 2){
 
+                resultadoText.text = "Cancún"
 
+            }
+            else if (SharedData.clima == 3){
+                resultadoText.text = "Phuket"
+            }
+        }
+        if(SharedData.local == 10){
+            if(SharedData.clima == 1){
+
+            }
+            else if(SharedData.clima == 2){
+
+            }
+            else if (SharedData.clima == 3){
+
+            }
+        }
 
     }
-
-//    private fun RecuperaResultado(){
-//
-//        val textView4 = findViewById<TextView>(R.id.textView4)
-//        val local = intent.getStringExtra("local")
-//
-//            textView4.setText(local)
-//
-//    }
 
 
 }

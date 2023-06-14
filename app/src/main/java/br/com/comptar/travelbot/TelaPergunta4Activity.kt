@@ -19,25 +19,27 @@ class TelaPergunta4Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.pergunta4)
 
-        val btnResp1: Button = findViewById(R.id.buttonResp1)
+        val btnResp1: Button = findViewById(R.id.buttonFrio)
         btnResp1.setOnClickListener {
             btnResp1.setBackgroundColor(Color.rgb(137, 137, 137))
             btnResp1.setTextColor(Color.WHITE)
-            val clima : String = "relaxante"
+            SharedData.clima = 1
             HabiltarButtonConfirmarResposta()
         }
 
-        val btnResp2: Button = findViewById(R.id.buttonResp2)
+        val btnResp2: Button = findViewById(R.id.buttonCalor)
         btnResp2.setOnClickListener {
             btnResp2.setBackgroundColor(Color.rgb(137, 137, 137))
             btnResp2.setTextColor(Color.WHITE)
+            SharedData.clima = 2
             HabiltarButtonConfirmarResposta()
         }
 
-        val btnResp3: Button = findViewById(R.id.buttonResp3)
+        val btnResp3: Button = findViewById(R.id.buttonTropical)
         btnResp3.setOnClickListener {
             btnResp3.setBackgroundColor(Color.rgb(137, 137, 137))
             btnResp3.setTextColor(Color.WHITE)
+            SharedData.clima = 3
             HabiltarButtonConfirmarResposta()
         }
 
