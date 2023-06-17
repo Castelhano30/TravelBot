@@ -4,15 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/verde_bg">
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="91dp"
+        android:layout_height="91dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045"
+        app:srcCompat="@drawable/cuateairplane" />
+
+    <TextView
+        android:id="@+id/textViewQtd2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3/4"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
 
     <TextView
         android:id="@+id/textView2"
         android:text="Qual é seu tipo de viagem ideal ?"
-        android:layout_width="314dp"
-        android:layout_height="60dp"
+        android:layout_width="389dp"
+        android:layout_height="112dp"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
@@ -22,9 +48,9 @@
 
     <Button
         android:id="@+id/buttonResp1"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/white"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/amarelo"
         android:textColor="@color/black"
         android:text="Aventureira"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -36,9 +62,9 @@
 
     <Button
         android:id="@+id/buttonResp2"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/white"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/amarelo"
         android:text="Relaxante"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -50,9 +76,9 @@
 
     <Button
         android:id="@+id/buttonResp3"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/white"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/amarelo"
         android:textColor="@color/black"
         android:text="Cultural"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -64,9 +90,9 @@
 
     <Button
         android:id="@+id/buttonResp4"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/white"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/amarelo"
         android:text="Praiana"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -78,8 +104,8 @@
 
     <Button
         android:id="@+id/buttonConfirmquestion"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
         android:backgroundTint="@color/cinza"
         android:text="Confirmar Resposta"
         android:textColor="@color/white"

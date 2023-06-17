@@ -4,15 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/verde_bg">
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="91dp"
+        android:layout_height="91dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045"
+        app:srcCompat="@drawable/cuateairplane" />
+
+    <TextView
+        android:id="@+id/textViewQtd3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4/4"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="314dp"
-        android:layout_height="60dp"
+        android:layout_width="389dp"
+        android:layout_height="112dp"
         android:text="Qual sua preferência de clima ?"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
@@ -22,9 +48,9 @@
 
     <Button
         android:id="@+id/buttonFrio"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/white"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/amarelo"
         android:text="Frio"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -36,9 +62,9 @@
 
     <Button
         android:id="@+id/buttonCalor"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/white"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/amarelo"
         android:text="Calor"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -50,22 +76,22 @@
 
     <Button
         android:id="@+id/buttonTropical"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/white"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/amarelo"
         android:text="Tropical"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.584" />
+        app:layout_constraintVertical_bias="0.588" />
 
     <Button
         android:id="@+id/buttonConfirmquestion"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
         android:backgroundTint="@color/cinza"
         android:text="Confirmar Resposta"
         android:textColor="@color/white"
