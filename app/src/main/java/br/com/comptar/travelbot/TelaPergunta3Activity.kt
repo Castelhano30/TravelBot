@@ -20,28 +20,28 @@ class TelaPergunta3Activity : AppCompatActivity() {
 
         val btnResp1: Button = findViewById(R.id.buttonResp1)
         btnResp1.setOnClickListener {
-            btnResp1.setBackgroundColor(Color.rgb(137, 137, 137))
+            btnResp1.setBackgroundColor(Color.rgb(231, 170, 15))
             btnResp1.setTextColor(Color.WHITE)
             HabiltarButtonConfirmarResposta()
         }
 
         val btnResp2: Button = findViewById(R.id.buttonResp2)
         btnResp2.setOnClickListener {
-            btnResp2.setBackgroundColor(Color.rgb(137, 137, 137))
+            btnResp2.setBackgroundColor(Color.rgb(231, 170, 15))
             btnResp2.setTextColor(Color.WHITE)
             HabiltarButtonConfirmarResposta()
         }
 
         val btnResp3: Button = findViewById(R.id.buttonResp3)
         btnResp3.setOnClickListener {
-            btnResp3.setBackgroundColor(Color.rgb(137, 137, 137))
+            btnResp3.setBackgroundColor(Color.rgb(231, 170, 15))
             btnResp3.setTextColor(Color.WHITE)
             HabiltarButtonConfirmarResposta()
         }
 
         val btnResp4: Button = findViewById(R.id.buttonResp4)
         btnResp4.setOnClickListener {
-            btnResp4.setBackgroundColor(Color.rgb(224, 17, 95))
+            btnResp4.setBackgroundColor(Color.rgb(231, 170, 15))
             btnResp4.setTextColor(Color.WHITE)
             HabiltarButtonConfirmarResposta()
         }

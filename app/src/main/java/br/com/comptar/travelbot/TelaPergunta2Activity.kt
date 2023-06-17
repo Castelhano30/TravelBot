@@ -23,7 +23,7 @@ class TelaPergunta2Activity : AppCompatActivity() {
 
         val btnResp1: Button = findViewById(R.id.buttonResp1)
         btnResp1.setOnClickListener {
-            btnResp1.setBackgroundColor(Color.rgb(137, 137, 137))
+            btnResp1.setBackgroundColor(Color.rgb(231, 170, 15))
             btnResp1.setTextColor(Color.WHITE)
             SharedData.local = 10
             HabiltarButtonConfirmarResposta()
@@ -31,7 +31,7 @@ class TelaPergunta2Activity : AppCompatActivity() {
 
         val btnResp2: Button = findViewById(R.id.buttonResp2)
         btnResp2.setOnClickListener {
-            btnResp2.setBackgroundColor(Color.rgb(137, 137, 137))
+            btnResp2.setBackgroundColor(Color.rgb(231, 170, 15))
             btnResp2.setTextColor(Color.WHITE)
             SharedData.local = 20
             HabiltarButtonConfirmarResposta()
